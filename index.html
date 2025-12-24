@@ -73,13 +73,13 @@
         </div>
     </section>
 
-    <section id="preview" class="py-5 bg-darker d-none d-md-block">
+    <section id="preview" class="py-5 bg-darker">
         <div class="container text-center mb-5">
             <h2 class="fw-bold" data-aos="fade-up">App Interface</h2>
             <p class="text-light opacity-50" data-aos="fade-up" data-aos-delay="100">Simple, dark, and intuitive.</p>
         </div>
         
-        <div id="appCarousel" class="carousel slide pb-5" data-bs-ride="carousel">
+        <div id="appCarousel" class="carousel slide pb-5 d-none d-md-block" data-bs-ride="carousel">
             <div class="carousel-inner container">
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center gap-4">
@@ -90,9 +90,8 @@
                 </div>
                 </div>
         </div>
-    </section>
-    <div id="appCarousel" class="carousel slide pb-5 d-md-none" data-bs-ride="carousel" data-bs-interval="3000">
-            
+        <div id="appCarousel" class="carousel slide pb-5 d-md-none" data-bs-ride="carousel" data-bs-interval="3000">
+
             <div class="carousel-indicators d-md-none">
                 <button type="button" data-bs-target="#appCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
                 <button type="button" data-bs-target="#appCarousel" data-bs-slide-to="1"></button>
@@ -100,11 +99,11 @@
             </div>
 
             <div class="carousel-inner container">
-                
+
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center gap-4">
                         <img src="/public/images/Login.png" class="d-block app-slide-img" alt="Login Screen">
-                        
+
                         <img src="/public/images/Layerimg.png" class="d-block app-slide-img d-none d-md-block" alt="Layer Screen">
                         <img src="/public/images/Onboarding.png" class="d-block app-slide-img d-none d-lg-block" alt="Onboarding Screen">
                     </div>
@@ -117,13 +116,15 @@
                 </div>
 
                 <div class="carousel-item d-md-none">
-                     <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center">
                         <img src="/public/images/Onboarding.png" class="d-block app-slide-img" alt="Onboarding Screen">
                     </div>
                 </div>
 
             </div>
-            </div>
+        </div>
+
+    </section>
 
     <footer id="download" class="text-center py-5 position-relative overflow-hidden mt-5 mt-md-0">
         <div class="glow-bg-blob blob-2"></div>
