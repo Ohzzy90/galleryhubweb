@@ -1,6 +1,4 @@
 import AOS from 'aos';
-
-// Initialize Animate On Scroll
 AOS.init({
   duration: 1000, // Duration of animation
   once: true,     // Whether animation should happen only once
